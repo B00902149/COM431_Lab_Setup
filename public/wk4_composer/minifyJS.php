@@ -11,7 +11,7 @@ $sourcePath2 = './js/bootstrap.js';
 $minifier->add($sourcePath2);
 
 // save minified file to disk
-$minifiedPath = './js/final.js';
+$minifiedPath = './js/final.jsls';
 $minifier->minify($minifiedPath);
 
 // or just output the content
